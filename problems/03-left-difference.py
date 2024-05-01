@@ -4,7 +4,11 @@
 
 # Write your code here.
 def left_diff(set1, set2):
-    pass
+    return set1 - set2 #difference
+    # return set1 | set2 both sets without duplicates
+    # return set1 & set2 shows pairs
+    # return set1 ^ set2 shows unique only
+
 
 set1 = { 1, 2, 5, 10 }
 set2 = { 2, 6, 10, 12 }

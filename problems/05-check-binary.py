@@ -4,7 +4,12 @@
 
 # Write your code here.
 def check_binary(str):
-    pass
+    binary_chars = {'0', '1'}
+
+    for char in str:
+        if char not in binary_chars:
+            return False
+    return True
 
 str1 = '1010001010010100101'
 str2 = '1010010015010101010'

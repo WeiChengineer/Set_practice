@@ -3,7 +3,11 @@
 
 # Write your code here.
 def add_to_set(st, lst):
-    pass
+    merged_set = set(st)
+
+    for i in lst:
+        merged_set.add(i)
+    return merged_set
 
 st = { 1, 2, 3, 4 }
 lst = [12, 4, 42, 93, 2, 85]
